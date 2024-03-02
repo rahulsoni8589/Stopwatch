@@ -26,9 +26,11 @@ function startwatch(){
       minutes++;
       seconds = 0;
       }
+
+    // Math.floor(time / 3600).toString().padStart(2, "0") + ":" + Math.floor((time % 3600) / 60).toString().padStart(2, "0") + ":" + Math.floor((time % 60)).toString().padStart(2, "0")
+
     
-    seconds = seconds<10? "0"+seconds:seconds;
-    timerElement.innerHTML = `${minutes} : ${seconds}`
+    timerElement.innerHTML = `${minutes.toString().padStart(2,"0")} : ${seconds.toString().padStart(2,"0")}`
     }, 1000)
     startElement.disabled = true 
 }
