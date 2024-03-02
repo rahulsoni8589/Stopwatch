@@ -46,5 +46,3 @@ function stopwatch(){
   startElement.disabled = false
   
 }
-
-
