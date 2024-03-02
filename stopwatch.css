@@ -1,0 +1,36 @@
+.stopwatch{
+  border: 5px solid orange;
+  background-color: yellow;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.timer{
+  position: relative;
+  top: 25%;
+  left: 22%;
+  height: 65px;
+  width: 175px;
+  background-color: azure;
+  font-size: 3rem;
+  color: red;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.stopwatch>button{
+  position: relative;
+  top: 35%;
+  left: 15%;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  background-color: red;
+
+}
+
+.stopwatch>button:hover{
+  background-color: lightsalmon;
+  color: white;
+}
