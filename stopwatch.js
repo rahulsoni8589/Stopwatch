@@ -26,8 +26,6 @@ function startwatch(){
       }
     
     seconds = seconds<10? "0"+seconds:seconds;
-    minutes = minutes<10? "0"+minutes:minutes;
-
     timerElement.innerHTML = `${minutes} : ${seconds}`
     }, 1000)
     startElement.disabled = true 
